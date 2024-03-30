@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5; /*la separacion entre texto es de 1.5 veces el tamanho normal*/
+}
+
+.container {
+    max-width: 1400px; /*texto solo juega dentro de 1400 pixeles*/
+    margin: 0 auto;
+    padding: 0 30px; /*top padding 0 y costados padding 30px*/
+}
+
+.navbar, .header {
+    background-color: lightblue;
+}
+
+/*NAVIGATION BAR*/
+.navbar .container{
+    padding-top: 15px;
+    justify-content: space-between; /*justifica el texto*/
+    align-items: center; /*centra el texto al medio de su container*/
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    font-size: 20px;
+    gap: 20px; /*separamos cada item en 20px*/
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; /*configuramos para que las listas no tengan ese punto a la izquierda*/
+}
+
+/*HEADER*/
+.header .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header button {
+    font-size: 25px;
+    padding: 0 30px;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px; /*curvaturas*/
+}
+
+/*INFORMATION*/
+.information .container {
+    text-align: center;
+}
+
+.information h2{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.recipe-image-rows{
+    display: flex;
+    gap: 50px; /*separamos cada item en 20px*/
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 20px;
+}
+
+/*QUOTE*/
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+
+.quote .content {
+    font-size: 30px;
+    font-style: italic;
+    padding: 50px 50px;
+}
+
+.author-quote {
+    margin-left: 800px;
+}
